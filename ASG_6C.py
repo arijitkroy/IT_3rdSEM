@@ -1,0 +1,5 @@
+s1 = set(input("Enter 1st statement: ").split())
+s2 = set(input("Enter 2nd statement: ").split())
+print(f"a: {s1 & s2}")
+print(f"b: {s1 | s2}")
+print(f"c: {s1 - s2}")
